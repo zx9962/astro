@@ -13,11 +13,14 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts')).sort(
 ).slice(0, 3);
 ---
 
-<BaseLayout>
+<BaseLayout
+    title="张晓宇的网站"
+    description="Your Page Description"
+>
     <HeroSection
-        title=`Hello, <span class="text-yellow-500 dark:text-yellow-400">GBlog</span>`
-        subTitle="Hi, Welcome to Gblog, gblog is an open-source, simple, and beautiful blog built with Astro."
-        primaryBtn="Explore Posts"
+        title=`Hello, <span class="text-yellow-500 dark:text-yellow-400">Friend</span>`
+        subTitle="你好, 我叫张晓宇,欢迎来到我的网站"
+        primaryBtn="浏览内容"
         primaryBtnURL="/posts"
         src={blogHeroImg}
         alt="godruoyi's blog"

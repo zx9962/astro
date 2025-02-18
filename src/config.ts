@@ -3,17 +3,17 @@ import type { NavigationLink, Site } from './types.ts'
 export const SITE: Site = {
     author: 'Godruoyi',
     url: 'https://godruoyi.com',
-    title: '连波的闲谈杂鱼',
+    title: '',
     description: 'Godruoyi\'s personal blog, I enjoy the process of building something using any technology stack',
     shortDescription: '',
 }
 
 export const NavigationLinks: NavigationLink[] = [
-    { name: 'Posts', url: '/posts' },
-    { name: 'Category', url: '/categories' },
-    { name: 'Timeline', url: '/timeline' },
-    { name: 'About', url: '/posts/gblog' },
-    { name: 'Friends', url: '/friends' },
+    { name: '文章', url: '/posts' },
+    { name: '分类', url: '/categories' },
+    { name: '时间轴', url: '/timeline' },
+    { name: '自我介绍', url: '/posts/gblog' },
+    { name: '老友', url: '/friends' },
 ]
 
 export const FooterLinks = [
